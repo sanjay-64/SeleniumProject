@@ -121,7 +121,6 @@ Latest Chrome browser is supported
 WebDriverManager automatically downloads the required browser drivers
 
 Author
-
 Sanjay Kumar
 
 
