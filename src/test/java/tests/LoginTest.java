@@ -31,7 +31,7 @@ public class LoginTest {
         userPwd.clear();
         userPwd.sendKeys("admin123");
 
-        WebElement loginButton = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//button[@type='submit']")));
+        WebElement loginButton = wait.until(xpectedConditions.elementToBeClickable(By.xpath("//button[@type='submit']")));
         loginButton.click();
 
         driver.quit();
